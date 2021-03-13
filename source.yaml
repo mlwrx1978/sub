@@ -1,7 +1,7 @@
 - type: webfuzzsub
   options:
-    url: https://raw.githubusercontent.com/oouxx/fqsub/master/sub
-
+    url: https://raw.githubusercontent.com/mlwrx1978/sub/main/sub
+ 
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
