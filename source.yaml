@@ -6,6 +6,19 @@
   options:
     url: https://merlinblog.xyz/wiki/freess.html
 
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/trojan
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+
 # tg频道抓取
 - type: tgchannel
   options:
