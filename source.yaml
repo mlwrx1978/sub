@@ -1,10 +1,16 @@
+# 模糊抓取订阅链接
 - type: webfuzzsub
   options:
     url: https://raw.githubusercontent.com/mlwrx1978/sub/main/sub
  
+# 网页模糊抓取
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
+
+- type: webfuzz
+  options:
+    url: https://fx.tmioe.com/free
 
 # 订阅链接
 - type: subscribe
