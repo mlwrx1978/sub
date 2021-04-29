@@ -8,10 +8,6 @@
   options:
     url: https://merlinblog.xyz/wiki/freess.html
 
-- type: webfuzz
-  options:
-    url: https://fx.tmioe.com/free
-
 # 订阅链接
 - type: subscribe
   options:
@@ -89,6 +85,10 @@
 #- type: web-fanqiangdang
 #  options:
 #    url: https://fanqiangdang.com/forum-48-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fx.tmioe.com/free
 
 # 某个网站抓取
 #- type: web-freessrxyz
