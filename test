@@ -1,12 +1,1 @@
 proxies:
-  - {name: 🇩🇪 Linode日本, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lin1.free80ml.tk}}}
-  - {name: "🇭🇰 HK", server: 54.169.233.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "🇨🇳 TW", server: 15.165.77.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "🇯🇵 JP 2", server: 54.238.220.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "🇯🇵 JP 3", server: 3.36.52.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "US", server: 35.88.222.161, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "CA", server: 54.202.222.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 欧洲 2, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: d96cf6fe-7b12-4233-8243-15258f74ea92, udp: true}
-  - {name: 🇨🇳 台湾 6, server: 116.162.14.228, port: 20761, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 3, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
-  - {name: 🇦🇺 澳大利亚118, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /F1HHEKOX, headers: {Host: uk4.lolvps.xyz}}}
