@@ -1,3 +1,30 @@
 proxies:
   - {name: 🇨🇳 TW_4018, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 TW_4019, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 中国 6, server: 183.232.56.161, port: 5018, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: 韩国 2, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: fbcf2615-dbc0-4198-8f36-81b4a0d3868d, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国 14, server: sg05.xiaocloud.icu, port: 20568, type: vmess, uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国 13, server: sg08.xiaocloud.icu, port: 20871, type: vmess, uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国 15, server: sg03.xiaocloud.icu, port: 20366, type: vmess, uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 14, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: fbcf2615-dbc0-4198-8f36-81b4a0d3868d, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国 16, server: sg09.xiaocloud.icu, port: 20972, type: vmess, uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国 18, server: sg04.xiaocloud.icu, port: 20467, type: vmess, uuid: 64749822-654a-3050-9aac-ba94af918f47, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 5, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: san.515223.xyz}}, udp: true}
+  - {name: 中国 2, server: 183.232.56.161, port: 1601, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
+  - {name: 美国 13, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 中国 67, server: 183.240.132.27, port: 21209, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚, server: uk4.lolvps.xyz, port: 60012, type: vmess, uuid: e8b32273-4c2f-4cb6-a768-7f2378346062, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /F1HHEKOX, headers: {Host: uk4.lolvps.xyz}}, udp: true}
+  - {name: 中国 19, server: 183.240.132.27, port: 21101, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国 3, server: 183.232.56.161, port: 9111, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: 香港 2, server: tj-hk05.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 中国, server: gy.rinki.monster, port: 1001, type: vmess, uuid: 75272af5-741d-30af-93f5-514ba330c0be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shr, headers: {Host: gy.rinki.monster}}, udp: true}
+  - {name: 日本, server: 40.74.85.36, port: 1050, type: vmess, uuid: 60c11015-6813-4a88-b37f-706632f413d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 15, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: fbcf2615-dbc0-4198-8f36-81b4a0d3868d, sni: de1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国 8, server: 183.232.56.161, port: 8004, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: 美国 2, server: 20.214.185.230, port: 1050, type: vmess, uuid: 564feb17-ffcf-48c2-ade8-ee546005efbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国 5, server: 183.232.56.161, port: 6111, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: 美国 10, server: abc.lszhang819.work, port: 11933, type: vmess, uuid: a3f65a97-4a20-48d4-fce8-2315aa58f56a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name:  1, server: 104.16.181.15, port: 443, type: vmess, uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Support-Putin-Kill-all-Ukrainians_vws, headers: {Host: support-putin-kill-all-ukrainians.884899.cf}}, udp: true}
+  - {name: 美国 4, server: 149.28.65.108, port: 45033, type: vmess, uuid: dd46e7be-aca4-11ec-bca4-560003ebee90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /PZbS7ohI/, headers: {Host: 149.28.65.108}}, udp: true}
+  - {name: 美国 16, server: in1.qingyun123.xyz, port: 443, type: trojan, password: fbcf2615-dbc0-4198-8f36-81b4a0d3868d, sni: in1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 12, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
