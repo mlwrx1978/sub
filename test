@@ -1,22 +1,67 @@
 proxies:
-  - {"name":"韩国_1","server":"kr1.qingyun123.xyz","port":10050,"type":"trojan","country":"韩国_1","skip-cert-verify":true,"udp":true,"password":"8f9450ad-37bc-4252-a942-2c64357182b6"}
-  - {"name":"hk香港_2","server":"vn.mumi.bid","port":10125,"type":"vmess","uuid":"83ae9f04-47f0-4e34-9a1c-9c2e5161f586","alterId":0,"cipher":"auto","country":"hk香港_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"美国_3","server":"tj-us01.yiyodns.xyz","port":443,"type":"trojan","country":"美国_3","skip-cert-verify":true,"udp":true,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc"}
-  - {"name":"美国_4","server":"us1.qingyun123.xyz","port":10050,"type":"trojan","country":"美国_4","skip-cert-verify":true,"udp":true,"password":"8f9450ad-37bc-4252-a942-2c64357182b6"}
-  - {"name":"德国_5","server":"de1.qingyun123.xyz","port":10050,"type":"trojan","country":"德国_5","skip-cert-verify":true,"udp":true,"password":"8f9450ad-37bc-4252-a942-2c64357182b6"}
-  - {"name":"美国_6","server":"us1.qingyun123.xyz","port":10050,"type":"trojan","country":"美国_6","skip-cert-verify":true,"udp":true,"password":"12776c89-c8c0-4f3f-b95d-ca5822eef538"}
-  - {"name":"加拿大_7","server":"ca02.holiganfan.com","port":10088,"type":"trojan","country":"加拿大_7","skip-cert-verify":true,"udp":true,"password":"61729199-896f-4c15-bae3-e8780b22c70c"}
-  - {"name":"土耳其_8","server":"183.240.2.41","port":24231,"type":"vmess","uuid":"663bfc17-c3f6-49da-972f-5e8e6b1315c2","alterId":0,"cipher":"auto","country":"土耳其_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/onefall.top"}}
-  - {"name":"台湾_9","server":"0314tw02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"台湾_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"0314tw02.fans8.xyz"}}}
-  - {"name":"美国_10","server":"167.88.63.108","port":8881,"type":"ss","country":"美国_10","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸_US_美国_11","server":"167.88.63.108","port":6379,"type":"ss","country":"🇺🇸_US_美国_11","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸_US_美国_12","server":"167.88.63.108","port":5001,"type":"ss","country":"🇺🇸_US_美国_12","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧英国_13","server":"172.99.190.92","port":7307,"type":"ss","country":"🇬🇧英国_13","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸_US_美国_14","server":"167.88.63.108","port":8000,"type":"ss","country":"🇺🇸_US_美国_14","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"欧洲_15","server":"167.88.63.108","port":5000,"type":"ss","country":"欧洲_15","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"台湾_16","server":"0314tw02.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"台湾_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"name":"🇺🇸_US_美国_17","server":"167.88.63.108","port":8118,"type":"ss","country":"🇺🇸_US_美国_17","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧_GB_英国_18","server":"172.99.190.92","port":6679,"type":"ss","country":"🇬🇧_GB_英国_18","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸美国_19","server":"169.197.142.99","port":9102,"type":"ss","country":"🇺🇸美国_19","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸美国_20","server":"169.197.142.99","port":8091,"type":"ss","country":"🇺🇸美国_20","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"RU俄罗斯_21","server":"0316ro.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"RU俄罗斯_21","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nl","headers":{"host":"0316ro.fans8.xyz"}}}
+  - {name: "TW,", server: 13.250.53.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP,", server: 13.114.223.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US,", server: 52.89.109.227, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US, 2", server: 104.243.30.101, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: "CA,", server: 54.245.159.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "KR,", server: 54.169.53.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "HK,", server: 15.165.77.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 2", server: 54.179.246.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US, 3", server: 104.243.26.79, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: "HK, 2", server: 3.113.24.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US, 4", server: 34.216.75.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "US, 5", server: 65.49.220.2, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
+  - {name: "SG,", server: 13.115.213.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "JP, 3", server: 13.228.168.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: TG@moneyflychat--, server: 5.183.179.137, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: TG@moneyflychat-- 2, server: 5.183.179.141, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: TG@moneyflychat-- 3, server: 5.183.179.170, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: TG@moneyflychat-- 4, server: 5.183.179.148, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: TG@moneyflychat-- 5, server: 5.183.179.170, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: Russia, server: 213.183.53.212, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: Russia 2, server: 213.183.53.222, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: Russia 3, server: 213.183.53.198, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: Russia 4, server: 213.183.53.222, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: Russia 5, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: Italy, server: 91.201.65.251, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: Italy 2, server: 91.201.65.254, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: China optimized, server: 213.183.53.161, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: China optimized 2, server: 213.183.41.38, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: China optimized 3, server: 213.183.48.81, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: China optimized 4, server: 213.183.53.249, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: China optimized 5, server: 213.183.41.8, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: Netherlands, server: 213.183.59.231, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: Netherlands 2, server: 213.183.59.209, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: Netherlands 3, server: 213.183.59.177, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: Netherlands 4, server: 213.183.59.175, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: Netherlands 5, server: 213.183.51.171, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: USA, server: 185.175.141.40, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: USA 2, server: 62.216.88.107, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: USA 3, server: 62.216.91.229, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: USA 4, server: 185.120.19.7, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: USA 5, server: 62.216.88.108, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: United Kingdom, server: 152.89.210.105, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: United Kingdom 2, server: 185.167.117.162, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: United Kingdom 3, server: 152.89.210.84, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: United Kingdom 4, server: 185.167.117.171, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: Switzerland, server: 185.126.116.124, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: Switzerland 2, server: 185.126.116.125, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: Switzerland 3, server: 185.126.116.117, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: Switzerland 4, server: 185.126.116.123, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: Singapore, server: 103.172.116.6, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Singapore 2, server: 103.172.116.8, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Singapore 3, server: 103.172.116.5, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Singapore 4, server: 103.172.116.7, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Singapore 5, server: 103.172.116.9, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Bulgaria, server: 213.183.63.218, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: Bulgaria 2, server: 213.183.63.219, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: Bulgaria 3, server: 213.183.63.217, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: Australia, server: 185.167.116.24, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: Australia 2, server: 185.167.116.253, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: Australia 3, server: 185.167.116.250, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: Australia 4, server: 185.167.116.252, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: Poland, server: 217.30.10.64, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: Poland 2, server: 217.30.10.63, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: Poland 3, server: 217.30.10.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: Poland 4, server: 217.30.10.65, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: Poland 5, server: 217.30.10.67, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
