@@ -1,2 +1,1 @@
 proxies:
-  - {name: 🇭🇰 香港HK 1866 , server: ssl.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: "*hi-moon.pw", skip-cert-verify: true, udp: true}
