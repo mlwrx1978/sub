@@ -1,2 +1,1 @@
 proxies:
-  - {name: 🇭🇰HK2691, server: gy.sharecentrepro.tk, port: 34148, type: trojan, password: sharecentrepro, skip-cert-verify: true}
