@@ -1,1 +1,10 @@
 proxies:
+  - {name: 🇭🇰HK027, server: azhk.fenglingcloud.com, port: 28001, type: trojan, password: 4b3903e2-f2a2-4831-95be-03cc8e3a7244, sni: hkbgp.webapi.cyou, skip-cert-verify: true}
+  - {name: 🇭🇰HK029, server: 40.83.89.223, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true}
+  - {name: 🇰🇷KR073, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: d7ff202a-7f5b-4190-93cb-92e086d2ebdc, skip-cert-verify: true}
+  - {name: 🇰🇷KR031, server: 20.194.18.187, port: 80, type: vmess, uuid: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /index.php, tls: false, ws-headers: {Host: telelink.cc}}
+  - {name: 🇷🇺RU100, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇫🇷FR026, server: 92.243.24.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LE6Ee6PELhVu}
+  - {name: 🇭🇰HK050, server: azhk.fenglingcloud.com, port: 28011, type: trojan, password: 4b3903e2-f2a2-4831-95be-03cc8e3a7244, sni: usny.webapi.cyou, skip-cert-verify: true}
+  - {name: CN081, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /eisasqa, tls: true, ws-headers: {Host: foxus.fovi.tk}}
+  - {name: 🇭🇰HK039, server: azhk.fenglingcloud.com, port: 28010, type: trojan, password: 4b3903e2-f2a2-4831-95be-03cc8e3a7244, skip-cert-verify: true}
